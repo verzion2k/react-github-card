@@ -2,7 +2,18 @@ import React from 'react';
 import './Content.scss';
 import logo from './logo.png';
 
-const Content = () => {
+interface ContentProps {
+	avatar: string;
+	username: string;
+	realName: string;
+	location: string;
+	url: string;
+	notFound: string;
+	repos: number;
+	followers: number;
+}
+
+const Content = (props: ContentProps) => {
 	return (
 		<div className="main__content">
 			<img src={logo} className="main__image" alt="logo" />
