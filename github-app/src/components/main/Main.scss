@@ -1,0 +1,13 @@
+.main__container {
+	background-color: #899dd6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 500px;
+	width: 250px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 100%;
+}

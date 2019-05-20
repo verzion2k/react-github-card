@@ -1,0 +1,15 @@
+.main__input::placeholder {
+	font: 100 14px 'Lato';
+}
+
+.main__input {
+	font: 400 14px 'Lato';
+	margin: 10px 15px 5px;
+	padding: 10px;
+	flex: 1 0 80%;
+}
+
+.main__input:focus,
+.main__input:active {
+	border: 2px #b3bfe0 solid;
+}

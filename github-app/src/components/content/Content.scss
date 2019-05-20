@@ -1,0 +1,50 @@
+.main__content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	border: 2px #1f5c8e solid;
+	margin: 45px 15px;
+	padding: 62px 15px 25px;
+}
+
+.main__title {
+	cursor: pointer;
+	text-decoration: underline;
+	font: 900 18px 'Lato';
+}
+
+.main__title:hover {
+	opacity: .5;
+}
+
+.main__image {
+	position: absolute;
+	top: -40px;
+	width: 75px;
+	height: 75px;
+}
+
+.main__title,
+.main__content__title,
+.main__content__text {
+	color: #fff;
+}
+
+.main__content__title,
+.main__content__text {
+	margin: 5px;
+}
+
+.main__content--wrapper {
+	text-align: center;
+	flex: 1 0 100%;
+}
+
+.main__content__title {
+	font: 900 16px 'Lato';
+}
+
+.main__content__text {
+	font: 400 13px 'Lato';
+}
