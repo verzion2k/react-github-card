@@ -8,21 +8,24 @@
 	padding: 62px 15px 25px;
 }
 
+.main__avatar {
+	position: absolute;
+	top: -40px;
+}
+
 .main__title {
-	cursor: pointer;
 	text-decoration: underline;
 	font: 900 18px 'Lato';
 }
 
-.main__title:hover {
+a .main__title:hover {
 	opacity: .5;
 }
 
 .main__image {
-	position: absolute;
-	top: -40px;
 	width: 100px;
 	height: 100px;
+	border-radius: 100%;
 }
 
 .main__title,

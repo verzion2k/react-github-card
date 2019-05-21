@@ -1,0 +1,38 @@
+.main__searchbox {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.main__button {
+	border: 0;
+	background-color: #b3bfe0;
+	margin: 5px 15px;
+	padding: 10px;
+	flex: 1 0 80%;
+	border: 2px #b3bfe0 solid;
+	border-radius: 5px;
+	color: #1f5c8e;
+	font: 400 14px 'Lato';
+}
+
+.main__button:focus,
+.main__button:active {
+	border: 2px #899dd6 solid;
+}
+
+.main__input::placeholder {
+	font: 100 14px 'Lato';
+}
+
+.main__input {
+	font: 400 14px 'Lato';
+	margin: 10px 15px 5px;
+	padding: 10px;
+	flex: 1 0 80%;
+}
+
+.main__input:focus,
+.main__input:active {
+	border: 2px #b3bfe0 solid;
+}
